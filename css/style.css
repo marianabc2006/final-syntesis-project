@@ -6,10 +6,41 @@ body {
   margin: 0;
   background-color: #ffffff;
 }
+.dreams {display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.axis{display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+#one {
+  color: hotpink; margin-left: 200px; 
+}
+.ke{
+  color:rgb(228, 129, 183);
+}
 .solar {
   display: block;
   margin-left: 200px;
   margin-right: 200px;
+}
+.laws{display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+#oort{
+color:hotpink;
+
+}
+.oort{
+  display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+
 }
 header h1 {
   background-color: #6db0cf;

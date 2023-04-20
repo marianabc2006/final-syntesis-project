@@ -30,14 +30,28 @@
         onclick="openTab(event, 'tab2')"
         id="tab2-button"
       >
-        Second tab
+        Gravity in the planets
       </button>
       <button
         class="tablinks"
         onclick="openTab(event, 'tab3')"
         id="tab3-button"
       >
-        Third tab
+        Axis inclination
+      </button>
+      <button
+        class="tablinks"
+        onclick="openTab(event, 'tab4')"
+        id="tab4-button"
+      >
+        Kepler laws and orbits
+      </button>
+      <button
+        class="tablinks"
+        onclick="openTab(event, 'tab5')"
+        id="tab5-button"
+      >
+        Oort Cloud
       </button>
     </div>
 
@@ -45,10 +59,12 @@
     <div id="tab1" class="tabcontent"></div>
     <div id="tab2" class="tabcontent"></div>
     <div id="tab3" class="tabcontent"></div>
+    <div id="tab4" class="tabcontent"></div>
+    <div id="tab5" class="tabcontent"></div>
     <script src="js/tabs.js"></script>
 
     <script>
-      const texts = ["tab1", "tab2", "tab3"];
+      const texts = ["tab1", "tab2", "tab3", "tab4", "tab5"];
       for (let i = 0; i < texts.length; i++) {
         $("#" + texts[i] + "-button").click(function () {
           $("#" + texts[i]).load("html/" + texts[i] + ".html");
@@ -62,11 +78,17 @@
 
     <footer>
       <section>
-        <a href="#main-title"> Go up</a> <br />
-        <a href="mailto:example@gmail.com">Contact us</a>
+        <a href="#main-title">
+          PFS de Fisica, Informatica, Ingles, Biologia, Quimica</a
+        >
+        <br />
+        <a href="mailto:example@gmail.com"
+          >Mariana Bedoya Cardona, Brian Camilo Diaz Mazo and Sara María
+          Gonzalez</a
+        >
       </section>
       <br />
-      Creative commons licence
+      10A
     </footer>
   </body>
 </html>
